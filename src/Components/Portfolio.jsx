@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/projects.jpg";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -31,28 +31,27 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Eclipse 3D Model",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Eclipse 3D Model is an open-source 3D web application designed to help young learners understand the mechanics of eclipses",
+    url: "https://github.com/Shaheer04/Eclipse-3D-Model",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Budgetier",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "A web application designed to simplify the planning process for Hajj, Umrah, or Ziarat trips.",
+    url: "https://github.com/Shaheer04/Budgetier",
   },
   {
-    title: "My Resume Site",
+    title: "My Transaction App",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "A transaction web App where u can create, delete, edit and save your transactions, built using python and flask.",
+    url: "https://github.com/Shaheer04/transaction_app",
   },
   {
-    title: "GitHub Codespaces and github.dev",
-    description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+    title: "Fake New detector",
+    description: "A machine-learning model that predicts fake news articles.",
+    url: "https://github.com/Shaheer04/fake_news_detection",
   },
 ];
 
